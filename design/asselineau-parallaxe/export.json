@@ -1,0 +1,12 @@
+{
+  "source": "public/media/asselineau-2027/asselineau-affiche.jpg",
+  "output": "public/media/asselineau-2027/asselineau-parallaxe.gif",
+  "width": 720,
+  "height": 1026,
+  "frames": 80,
+  "fps": 20,
+  "durationSeconds": 4,
+  "loop": "infinite",
+  "bytes": 7133650,
+  "effect": "2.5D par profondeur complète, caméra gauche-droite-retour, texte fixe"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "sanctions-le-boomerang",
+  "title": "On avait tout prévu. Sauf la réponse.",
+  "description": "Le boomerang : une satire en trois planches du rapport de force économique entre sanctions et ripostes russes. La BD interroge la surprise des dirigeants face aux conséquences de leurs décisions. Les événements évoqués sont documentés dans le projet source ; les dialogues et les réactions des personnages sont imaginés.",
+  "date": "2026-10-03",
+  "type": "image",
+  "category": "independance",
+  "tags": [
+    "BD",
+    "satire",
+    "sanctions",
+    "Russie",
+    "Be_Free_Mind"
+  ],
+  "file": "planche-01.webp",
+  "thumbnail": "planche-01-apercu.webp",
+  "width": 1024,
+  "height": 1536,
+  "alt": "On avait tout prévu. Sauf la réponse. — page 1/3 : Le bilan des sanctions. Watermark @Be_Free_Mind.",
+  "featured": false,
+  "demo": false,
+  "variants": [],
+  "parts": [
+    {
+      "title": "La riposte",
+      "type": "image",
+      "file": "planche-02.webp",
+      "thumbnail": "planche-02-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "On avait tout prévu. Sauf la réponse. — page 2/3 : La riposte. Watermark @Be_Free_Mind."
+    },
+    {
+      "title": "Le boomerang",
+      "type": "image",
+      "file": "planche-03.webp",
+      "thumbnail": "planche-03-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "On avait tout prévu. Sauf la réponse. — page 3/3 : Le boomerang. Watermark @Be_Free_Mind."
+    }
+  ],
+  "order": 130
+}

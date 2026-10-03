@@ -1,0 +1,30 @@
+{
+  "name": "mediatheque-france-independante",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "validate:content": "tsx scripts/validate-content.ts",
+    "check:catalog": "tsx scripts/check-catalog.ts",
+    "build": "npm run validate:content && tsc -b && vite build && tsx scripts/generate-pages.ts",
+    "check:build": "npm run check:catalog && tsx scripts/check-build.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "fflate": "^0.8.3",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "sharp": "^0.35.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "asselineau-dupont-aignan-le-meme-frexit",
+  "title": "Asselineau – Dupont-Aignan : le même Frexit ?",
+  "description": "Trois planches comparent les trajectoires d’Asselineau et de Dupont-Aignan : sortie ou renégociation, moyens juridiques, parrainages et alliances. Un débat imaginaire fondé sur les positions et critiques réunies dans le projet source, avec leurs dates. Il ne s’agit pas de la transcription d’une rencontre.",
+  "date": "2026-10-03",
+  "type": "image",
+  "category": "independance",
+  "tags": [
+    "BD",
+    "Asselineau",
+    "Dupont-Aignan",
+    "Frexit",
+    "Be_Free_Mind"
+  ],
+  "file": "planche-01.webp",
+  "thumbnail": "planche-01-apercu.webp",
+  "width": 1024,
+  "height": 1536,
+  "alt": "Asselineau – Dupont-Aignan : le même Frexit ? — page 1/3 : Sortie et renégociation. Watermark @Be_Free_Mind.",
+  "featured": false,
+  "demo": false,
+  "variants": [],
+  "parts": [
+    {
+      "title": "Rapport de force et engagements",
+      "type": "image",
+      "file": "planche-02.webp",
+      "thumbnail": "planche-02-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Asselineau – Dupont-Aignan : le même Frexit ? — page 2/3 : Rapport de force et engagements. Watermark @Be_Free_Mind."
+    },
+    {
+      "title": "Parrainages, alliances et Frexit",
+      "type": "image",
+      "file": "planche-03.webp",
+      "thumbnail": "planche-03-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Asselineau – Dupont-Aignan : le même Frexit ? — page 3/3 : Parrainages, alliances et Frexit. Watermark @Be_Free_Mind."
+    }
+  ],
+  "order": 120
+}

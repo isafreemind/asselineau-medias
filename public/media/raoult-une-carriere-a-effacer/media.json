@@ -1,0 +1,116 @@
+{
+  "id": "raoult-une-carriere-a-effacer",
+  "title": "Raoult — Une carrière à effacer ?",
+  "description": "Rétractations : lire avant de juger. Onze planches satiriques interrogent le jugement porté sur une carrière, les motifs de retrait des publications, les parcours des contradicteurs et l’exigence de preuve. Dialogues fictifs et regard éditorial de l’auteur ; ce débat rétrospectif ne constitue pas un conseil médical ni une démonstration d’efficacité d’un traitement.",
+  "date": "2026-10-03",
+  "type": "image",
+  "category": "democratie",
+  "tags": [
+    "BD",
+    "Raoult",
+    "esprit critique",
+    "rétractations",
+    "Be_Free_Mind"
+  ],
+  "file": "planche-01.webp",
+  "thumbnail": "planche-01-apercu.webp",
+  "width": 1024,
+  "height": 1536,
+  "alt": "Raoult — Une carrière à effacer ? — page 1/11 : Le tampon magique. Watermark @Be_Free_Mind.",
+  "featured": false,
+  "demo": false,
+  "variants": [],
+  "parts": [
+    {
+      "title": "Lire les petites lignes",
+      "type": "image",
+      "file": "planche-02.webp",
+      "thumbnail": "planche-02-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Raoult — Une carrière à effacer ? — page 2/11 : Lire les petites lignes. Watermark @Be_Free_Mind."
+    },
+    {
+      "title": "Et les personnes ?",
+      "type": "image",
+      "file": "planche-03.webp",
+      "thumbnail": "planche-03-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Raoult — Une carrière à effacer ? — page 3/11 : Et les personnes ?. Watermark @Be_Free_Mind."
+    },
+    {
+      "title": "Fallait-il ne rien tenter ?",
+      "type": "image",
+      "file": "planche-04.webp",
+      "thumbnail": "planche-04-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Raoult — Une carrière à effacer ? — page 4/11 : Fallait-il ne rien tenter ?. Watermark @Be_Free_Mind."
+    },
+    {
+      "title": "Le tampon tourne",
+      "type": "image",
+      "file": "planche-05.webp",
+      "thumbnail": "planche-05-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Raoult — Une carrière à effacer ? — page 5/11 : Le tampon tourne. Watermark @Be_Free_Mind."
+    },
+    {
+      "title": "Même molécule, même protocole ?",
+      "type": "image",
+      "file": "planche-06.webp",
+      "thumbnail": "planche-06-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Raoult — Une carrière à effacer ? — page 6/11 : Même molécule, même protocole ?. Watermark @Be_Free_Mind."
+    },
+    {
+      "title": "Le micro et le curriculum",
+      "type": "image",
+      "file": "planche-07.webp",
+      "thumbnail": "planche-07-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Raoult — Une carrière à effacer ? — page 7/11 : Le micro et le curriculum. Watermark @Be_Free_Mind."
+    },
+    {
+      "title": "Derrière les signatures",
+      "type": "image",
+      "file": "planche-08.webp",
+      "thumbnail": "planche-08-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Raoult — Une carrière à effacer ? — page 8/11 : Derrière les signatures. Watermark @Be_Free_Mind."
+    },
+    {
+      "title": "Blouses, mandats et laboratoires",
+      "type": "image",
+      "file": "planche-09.webp",
+      "thumbnail": "planche-09-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Raoult — Une carrière à effacer ? — page 9/11 : Blouses, mandats et laboratoires. Watermark @Be_Free_Mind."
+    },
+    {
+      "title": "Les preuves derrière les titres",
+      "type": "image",
+      "file": "planche-10.webp",
+      "thumbnail": "planche-10-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Raoult — Une carrière à effacer ? — page 10/11 : Les preuves derrière les titres. Watermark @Be_Free_Mind."
+    },
+    {
+      "title": "Rétractées. Ce n’est pas un gag.",
+      "type": "image",
+      "file": "planche-11.webp",
+      "thumbnail": "planche-11-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Raoult — Une carrière à effacer ? — page 11/11 : Rétractées. Ce n’est pas un gag.. Watermark @Be_Free_Mind."
+    }
+  ],
+  "order": 160
+}

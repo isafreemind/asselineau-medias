@@ -1,0 +1,99 @@
+{
+  "site": {
+    "name": "La France indépendante",
+    "eyebrow": "Médiathèque citoyenne",
+    "headline": "Ni droite, ni gauche :\npour une France indépendante.",
+    "description": "Voir, télécharger et partager des médias prêts pour vos réseaux.",
+    "about": "Une bibliothèque de médias consacrée à François Asselineau et à l'indépendance de la France. Téléchargez les contenus pour les publier directement sur vos réseaux.",
+    "footer": "Voir. Comprendre. Faire circuler.",
+    "authorMessage": {
+      "title": "Pourquoi cette page ?",
+      "paragraphs": [
+        "Je n’ai aucun lien politique avec François Asselineau. Mais je constate, comme beaucoup d’entre vous certainement, que les grands médias de masse l’empêchent de prendre la parole. On pourra gueuler tant qu’on voudra, cela ne changera rien. Notre seule solution est d’inonder les réseaux pour lui offrir une visibilité. Cette page est faite pour cela.",
+        "Je ne demande rien. Mon seul objectif est le suivant : si Asselineau est celui qui vous paraît le plus pertinent pour cette élection, n’hésitez pas à télécharger ce que vous voulez, quand vous le voulez, si certains de ces médias vous parlent.",
+        "Nous ne lutterons pas contre la censure médiatique en nous contentant de protester. Il faut donc que nous prenions nous-mêmes la responsabilité de le faire connaître."
+      ],
+      "signature": "@Be_Free_Mind",
+      "profileLabel": "X · @Be_Free_Mind",
+      "profileUrl": "https://x.com/Be_Free_Mind"
+    }
+  },
+  "labels": {
+    "library": "Médiathèque",
+    "about": "À propos",
+    "search": "Rechercher un média",
+    "latest": "Les médias",
+    "all": "Tous",
+    "video": "Vidéos",
+    "image": "Images",
+    "gif": "GIF",
+    "audio": "Audio",
+    "allFormats": "Tous les formats",
+    "horizontal": "Horizontal",
+    "square": "Carré",
+    "vertical": "Vertical",
+    "allCategories": "Tous les thèmes",
+    "view": "Voir",
+    "download": "Télécharger",
+    "share": "Partager",
+    "copyLink": "Copier le lien",
+    "copied": "Lien copié",
+    "copyFailed": "Sélectionnez le lien et copiez-le manuellement.",
+    "close": "Fermer",
+    "back": "Retour à la médiathèque",
+    "formatPreserved": "Le format original est toujours conservé.",
+    "noResults": "Aucun média ne correspond à votre recherche.",
+    "reset": "Effacer les filtres",
+    "result": "média",
+    "results": "médias",
+    "example": "Exemple",
+    "demoNotice": "Contenus de démonstration : les fichiers et les textes seront remplacés par vos médias.",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "page": "Page",
+    "original": "Fichier original",
+    "variants": "Autres formats",
+    "source": "Source du média",
+    "notFound": "Ce média est introuvable.",
+    "shareTitle": "Partager ce média",
+    "shareOnX": "Partager sur X",
+    "unsupported": "La lecture n'est pas prise en charge par votre navigateur. Téléchargez le fichier pour le consulter.",
+    "categories": "Thèmes",
+    "featured": "À la une",
+    "downloadGroup": "Tout télécharger (ZIP)",
+    "groupFiles": "fichiers",
+    "part": "Planche / fichier"
+  },
+  "shareMessage": "Voici le lien de partage. Toutefois, pour garantir que ce média reste toujours accessible, nous vous recommandons de le télécharger directement, puis de le publier sans dépendre de ce lien.",
+  "categories": [
+    {
+      "id": "independance",
+      "label": "Indépendance"
+    },
+    {
+      "id": "democratie",
+      "label": "Démocratie"
+    },
+    {
+      "id": "histoire",
+      "label": "Histoire de France"
+    },
+    {
+      "id": "formats-courts",
+      "label": "Formats courts"
+    }
+  ],
+  "validationRules": {
+    "checkedOn": "2026-10-03",
+    "source": "https://help.x.com/en/using-x/x-videos",
+    "deploymentWarningMb": 800,
+    "deploymentLimitMb": 1000,
+    "x": {
+      "imageMaxMb": 5,
+      "gifMobileMaxMb": 5,
+      "gifWebMaxMb": 15,
+      "videoMaxMb": 512,
+      "videoMaxSeconds": 140
+    }
+  }
+}

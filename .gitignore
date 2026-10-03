@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.vite/
+*.local
+*.log
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+reports/
+.playwright-mcp/
+.DS_Store
+Thumbs.db
+design/asselineau-parallaxe/frames/
+tools/watermark/bin/
+/exports/
+tools/

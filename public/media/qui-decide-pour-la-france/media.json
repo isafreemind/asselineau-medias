@@ -1,0 +1,44 @@
+{
+  "id": "qui-decide-pour-la-france",
+  "title": "Qui décide pour la France ?",
+  "description": "Un débat imaginaire en trois planches entre Asselineau et Le Pen sur la souveraineté, les règles qui encadrent les décisions nationales et les moyens de changer ce cadre. La souveraineté est présentée comme la condition politique défendue par Asselineau, sans garantir à elle seule les résultats économiques futurs. Les dialogues ne sont pas des citations authentiques.",
+  "date": "2026-10-03",
+  "type": "image",
+  "category": "independance",
+  "tags": [
+    "BD",
+    "Asselineau",
+    "Le Pen",
+    "souveraineté",
+    "Be_Free_Mind"
+  ],
+  "file": "planche-01.webp",
+  "thumbnail": "planche-01-apercu.webp",
+  "width": 1024,
+  "height": 1536,
+  "alt": "Qui décide pour la France ? — page 1/3 : La décision nationale. Watermark @Be_Free_Mind.",
+  "featured": false,
+  "demo": false,
+  "variants": [],
+  "parts": [
+    {
+      "title": "Les choix commerciaux",
+      "type": "image",
+      "file": "planche-02.webp",
+      "thumbnail": "planche-02-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Qui décide pour la France ? — page 2/3 : Les choix commerciaux. Watermark @Be_Free_Mind."
+    },
+    {
+      "title": "Changer le cadre",
+      "type": "image",
+      "file": "planche-03.webp",
+      "thumbnail": "planche-03-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "Qui décide pour la France ? — page 3/3 : Changer le cadre. Watermark @Be_Free_Mind."
+    }
+  ],
+  "order": 170
+}

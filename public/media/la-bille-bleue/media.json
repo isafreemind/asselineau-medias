@@ -1,0 +1,44 @@
+{
+  "id": "la-bille-bleue",
+  "title": "La bille bleue : peut-on choisir ce qu’on ne connaît pas ?",
+  "description": "Trois billes visibles, une quatrième cachée. Cette BD interroge le rôle des médias dans nos choix politiques et explique pourquoi l’intelligence ne suffit pas quand une alternative reste inconnue. Trois planches réunissant le diptyque d’origine et son complément ; une analogie en dialogue fictif.",
+  "date": "2026-10-03",
+  "type": "image",
+  "category": "democratie",
+  "tags": [
+    "BD",
+    "visibilité",
+    "médias",
+    "choix",
+    "Be_Free_Mind"
+  ],
+  "file": "planche-01-la-bille-invisible.webp",
+  "thumbnail": "planche-01-la-bille-invisible-apercu.webp",
+  "width": 1024,
+  "height": 1536,
+  "alt": "La bille bleue : peut-on choisir ce qu’on ne connaît pas ? — page 1/3 : La bille invisible. Watermark @Be_Free_Mind.",
+  "featured": false,
+  "demo": false,
+  "variants": [],
+  "parts": [
+    {
+      "title": "Qui reste hors champ ?",
+      "type": "image",
+      "file": "planche-02-qui-reste-hors-champ.webp",
+      "thumbnail": "planche-02-qui-reste-hors-champ-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "La bille bleue : peut-on choisir ce qu’on ne connaît pas ? — page 2/3 : Qui reste hors champ ?. Watermark @Be_Free_Mind."
+    },
+    {
+      "title": "L’intelligence ne suffit pas",
+      "type": "image",
+      "file": "planche-03-l-intelligence-ne-suffit-pas.webp",
+      "thumbnail": "planche-03-l-intelligence-ne-suffit-pas-apercu.webp",
+      "width": 1024,
+      "height": 1536,
+      "alt": "La bille bleue : peut-on choisir ce qu’on ne connaît pas ? — page 3/3 : L’intelligence ne suffit pas. Watermark @Be_Free_Mind."
+    }
+  ],
+  "order": 150
+}

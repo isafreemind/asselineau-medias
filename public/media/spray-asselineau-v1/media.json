@@ -1,0 +1,19 @@
+{
+  "id": "spray-asselineau-v1",
+  "title": "Ce spray est l’arme d’Asselineau",
+  "description": "Une satire politique humoristique en animation cartoon 3D, dans une basse-cour française. Un coq présente un spray, chasse des parasites aux couleurs de l’Union européenne et rend leur vigueur aux autres coqs, sous le regard des poussins. La scène est fictive : la guérison instantanée est un effet de fantaisie, pas une recommandation d’utilisation réelle du produit.",
+  "date": "2026-10-03",
+  "type": "video",
+  "category": "formats-courts",
+  "tags": ["Asselineau", "satire politique", "humour", "animation 3D", "coq", "Be_Free_Mind"],
+  "file": "spray_asselineau_v1.mp4",
+  "thumbnail": "apercu.jpg",
+  "width": 1920,
+  "height": 1080,
+  "alt": "Un coq cartoon tient un flacon antiparasitaire dans une basse-cour, devant des volailles déplumées et une affiche d’Asselineau. Signature @Be_Free_Mind.",
+  "order": 80,
+  "demo": false,
+  "featured": false,
+  "parts": [],
+  "variants": []
+}
