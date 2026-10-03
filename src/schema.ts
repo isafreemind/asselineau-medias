@@ -17,6 +17,7 @@ export const mediaSchema = z.object({
 export const mediaDefinitionSchema = mediaSchema.extend({ order: z.number().int().default(1000) }).strict();
 export const siteSettingsSchema = z.object({
   site: z.object({ name: text, eyebrow: text, headline: text, description: text, about: text, footer: text,
+    socialImage: filePath.optional(), socialImageAlt: text.optional(),
     authorMessage: z.object({ title: text, paragraphs: z.array(text).min(1), signature: text, profileLabel: text,
       profileUrl: z.url().refine(value => new URL(value).protocol === 'https:', 'Le lien du profil doit utiliser HTTPS.') })
   }),

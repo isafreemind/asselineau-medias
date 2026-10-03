@@ -1,6 +1,8 @@
 {
   "site": {
     "name": "La France indépendante",
+    "socialImage": "social/site-france-asselineau.jpg",
+    "socialImageAlt": "François Asselineau, patrimoine français et ruban tricolore : La France indépendante. Ni droite, ni gauche.",
     "eyebrow": "Médiathèque citoyenne",
     "headline": "Ni droite, ni gauche :\npour une France indépendante.",
     "description": "Voir, télécharger et partager des médias prêts pour vos réseaux.",

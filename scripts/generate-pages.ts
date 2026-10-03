@@ -31,8 +31,13 @@ for (const media of content.media) {
   urls.push(url);
 }
 const authorMessage = content.site.authorMessage;
+const siteImage = content.site.socialImage ? new URL(content.site.socialImage, origin).href : undefined;
+if (content.site.socialImage) {
+  const meta = await sharp(publicFile(content.site.socialImage)).metadata();
+  if (meta.width !== 1200 || meta.height !== 630) throw new Error('site.socialImage : miniature attendue de 1200 × 630 pixels.');
+}
 const authorFallback = `<section><h2>${e(authorMessage.title)}</h2>${authorMessage.paragraphs.map(paragraph => `<p>${e(paragraph)}</p>`).join('')}<a href="${e(authorMessage.profileUrl)}" target="_blank" rel="noopener noreferrer">${e(authorMessage.signature)}</a></section>`;
-writeFileSync('dist/index.html', page(head(content.site.name, content.site.description, origin), `<h1>${e(content.site.headline)}</h1>${authorFallback}<ul>${content.media.map(media => `<li><a href="${e(`${base}medias/${media.id}/`)}">${e(media.title)}</a></li>`).join('')}</ul>`));
+writeFileSync('dist/index.html', page(head(content.site.name, content.site.description, origin, siteImage, content.site.socialImageAlt), `<h1>${e(content.site.headline)}</h1>${authorFallback}<ul>${content.media.map(media => `<li><a href="${e(`${base}medias/${media.id}/`)}">${e(media.title)}</a></li>`).join('')}</ul>`));
 writeFileSync('dist/404.html', page(head(content.labels.notFound, content.site.description, origin), `<h1>${e(content.labels.notFound)}</h1><a href="${e(base)}">${e(content.labels.back)}</a>`));
 writeFileSync('dist/.nojekyll', '');
 writeFileSync('dist/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.map(url => `<url><loc>${e(url)}</loc></url>`).join('')}</urlset>`);

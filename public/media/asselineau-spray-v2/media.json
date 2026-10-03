@@ -1,0 +1,19 @@
+{
+  "id": "asselineau-spray-v2",
+  "title": "Ce spray est l’arme d’Asselineau — Version 2",
+  "description": "Deuxième version de cette satire politique humoristique en animation cartoon 3D, dans une basse-cour française. Un coq présente un spray et chasse des parasites aux couleurs de l’Union européenne : les volailles retrouvent leur vigueur et les poussins leur joie. Une affiche d’Asselineau accompagne la scène. Cette fiction générée par IA utilise une guérison instantanée de fantaisie ; elle ne constitue pas une recommandation d’utilisation réelle du produit.",
+  "date": "2026-10-03",
+  "type": "video",
+  "category": "formats-courts",
+  "tags": ["Asselineau", "satire politique", "humour", "animation 3D", "coq", "version 2", "Be_Free_Mind"],
+  "file": "asselineau_spray_v2.mp4",
+  "thumbnail": "apercu.jpg",
+  "width": 1920,
+  "height": 1080,
+  "alt": "Scène de basse-cour en animation cartoon 3D : un coq au spray et des volailles devant une affiche d’Asselineau. Signature @Be_Free_Mind.",
+  "order": 81,
+  "demo": false,
+  "featured": false,
+  "parts": [],
+  "variants": [{"label": "Original HEVC (compatibilité selon le navigateur)", "file": "asselineau_spray_v2_low.mp4", "type": "video", "width": 1920, "height": 1080}]
+}

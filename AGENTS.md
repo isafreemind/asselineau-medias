@@ -44,6 +44,8 @@ dupliqués, fichiers absents et chemins hors du dossier avec un message précis.
 
 Conserver les fichiers binaires séparés du JSON. Utiliser des identifiants stables et uniques pour les médias afin qu'une réorganisation ou une modification de titre ne casse pas les liens existants.
 
+Lorsqu'une nouvelle version constitue une publication distincte, lui attribuer son propre dossier, identifiant et titre explicite (`Version 2`, par exemple). Conserver la publication précédente et ses liens. Une conversion technique du même contenu reste une variante de sa publication, pas une nouvelle version éditoriale.
+
 Définir un schéma TypeScript correspondant au JSON et valider automatiquement le fichier avant chaque construction. En cas d'erreur, indiquer précisément l'entrée et le champ concernés avec un message compréhensible. Éviter les champs techniques inutiles et fournir un fichier d'exemple documenté dans la documentation du projet.
 
 Le catalogue doit être conçu dès l'origine pour plusieurs centaines de médias. Utiliser notamment la pagination ou le chargement progressif, les miniatures, le chargement différé et un index de recherche léger afin que la taille du catalogue ne dégrade pas l'expérience.
@@ -64,6 +66,10 @@ Le lien partagé doit mener vers une page propre au média, et non directement v
 
 Pré-générer les pages de médias au moment de la construction afin de conserver React et TypeScript tout en produisant des aperçus sociaux fiables sur un hébergement statique.
 
+La page d'accueil doit également disposer de métadonnées sociales statiques et d'une couverture dédiée au site, distincte des miniatures des publications. Configurer son chemin relatif à `public` dans `content/site.json` avec `site.socialImage` et sa description avec `site.socialImageAlt`. La couverture actuelle est `public/social/site-france-asselineau.jpg` : JPEG de 1200 × 630 pixels, évoquant la France et François Asselineau. Utiliser une URL absolue tenant compte du sous-répertoire GitHub Pages dans les balises Open Graph et X, avec une carte `summary_large_image`.
+
+Enregistrer les images générées utilisées par le site dans le projet et conserver leur prompt ainsi que les références employées dans `design/`. Vérifier la lisibilité des textes, la fidélité des visages et les marges avant intégration.
+
 ## Orientation éditoriale
 
 Le site porte le message politique central suivant :
@@ -73,6 +79,8 @@ Le site porte le message politique central suivant :
 L'objectif est de présenter les contenus et les prises de parole de François Asselineau de manière claire, accessible et directement exploitable par les visiteurs.
 
 Le ton éditorial doit être affirmatif, précis et pédagogique. Ne pas affaiblir artificiellement les conclusions par des précautions oratoires inutiles. Distinguer néanmoins clairement les faits établis, les raisonnements, les hypothèses et les interprétations.
+
+Pour les satires et les scènes générées par IA, préciser leur statut fictif dans la description de la publication. Le prompt fourni explique l'intention de création ; il ne prouve pas que le fichier final respecte chaque action, inscription ou durée annoncée. Décrire le contenu effectivement observé et signaler les écarts utiles.
 
 ## Identité visuelle
 
@@ -84,6 +92,8 @@ L'interface doit être :
 - rassembleuse et indépendante des codes graphiques traditionnels de la droite et de la gauche.
 
 Ne faire aucun lien visuel, symbolique ou éditorial avec l'Union européenne. Ne pas employer le drapeau européen, ses étoiles ou une palette graphique susceptible de devenir l'identité dominante du site.
+
+Cette règle concerne l'identité du site et sa couverture générale. Elle n'interdit pas les références à l'Union européenne présentes dans les médias politiques ou satiriques fournis par l'utilisateur ; conserver leur contenu et leur contexte.
 
 L'identité française doit rester élégante et contemporaine : éviter l'accumulation de symboles, les décors surchargés et l'esthétique institutionnelle vieillissante.
 
@@ -136,6 +146,10 @@ La validation ne doit pas bloquer silencieusement un média. Produire un rapport
 
 Pour X, vérifier les exigences officielles en vigueur au moment de l'ajout plutôt que de figer définitivement les seuils dans le code. Préférer pour les vidéos largement diffusables un conteneur MP4, une vidéo H.264 et un son AAC. Les règles de validation doivent rester configurables pour suivre l'évolution des réseaux sociaux.
 
+Mesurer les caractéristiques du fichier réel avec `ffprobe` ; ne pas déduire sa durée ou son codec du prompt, du nom ou de la seule extension MP4. Signaler notamment une différence entre la durée demandée et la durée mesurée, sans couper le contenu automatiquement.
+
+Si le codec original est peu compatible, produire une copie MP4 H.264 / AAC avec format de pixels `yuv420p` et démarrage rapide (`+faststart`) pour la lecture principale. Préserver le fichier fourni et le proposer comme variante clairement identifiée. Vérifier les dimensions, la durée et les pistes de la conversion ; ne pas augmenter artificiellement la définition.
+
 Générer ou demander une miniature dédiée lorsque l'original ne convient pas à l'aperçu social. Aucun texte, visage ou élément essentiel ne doit se trouver dans une zone susceptible d'être recadrée.
 
 ## Référentiel commun
@@ -164,3 +178,7 @@ Avant de considérer une modification comme terminée, vérifier que :
 12. la taille du déploiement reste compatible avec les limites de GitHub Pages.
 13. les textes généraux se trouvent dans `content/site.json` et les définitions dans les `media.json` de chaque publication ;
 14. les JSON sont valides, chaque média possède un identifiant unique et chaque fichier référencé existe dans son propre dossier.
+15. la page d'accueil contient sa couverture et ses métadonnées sociales statiques, avec les URL publiques appropriées ;
+16. les versions précédentes et les originaux sont préservés, et les métadonnées correspondent aux fichiers réels.
+
+Pour une intégration de média ou une modification du générateur, exécuter `npm.cmd run build` puis `npm.cmd run check:build` sous Windows (`npm run` sur les autres systèmes). Ces commandes vérifient le contenu, le typage, la découverte du catalogue, les pages statiques, les liens, les miniatures et les archives. Lire le rapport `reports/media-validation.json` et distinguer les avertissements existants de ceux introduits par l'ajout. Une modification documentaire seule appelle une relecture et `git diff --check`.

@@ -9,6 +9,13 @@ const content = readContent();
 assert.deepEqual(existsSync('dist/medias') ? readdirSync('dist/medias').sort() : [], content.media.map(item => item.id).sort(), 'Pages obsolètes ou manquantes dans le catalogue construit');
 const {origin, base} = hosting();
 const homeHtml = readFileSync('dist/index.html', 'utf8');
+if (content.site.socialImage) {
+  assert(homeHtml.includes(`property="og:image" content="${escapeHtml(new URL(content.site.socialImage, origin).href)}"`), 'Miniature sociale du site absente');
+  assert(homeHtml.includes('name="twitter:card" content="summary_large_image"'), 'Carte X du site absente');
+  const cover = await sharp(publicFile(content.site.socialImage)).metadata();
+  assert.equal(cover.width, 1200);
+  assert.equal(cover.height, 630);
+}
 for (const paragraph of content.site.authorMessage.paragraphs) assert(homeHtml.includes(escapeHtml(paragraph)), 'Texte de présentation absent du HTML statique');
 assert(homeHtml.includes(`href="${escapeHtml(content.site.authorMessage.profileUrl)}"`), 'Lien vers le compte X absent');
 for (const media of content.media) {
