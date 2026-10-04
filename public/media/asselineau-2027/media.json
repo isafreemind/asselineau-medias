@@ -1,24 +1,16 @@
 {
   "id": "asselineau-2027",
-  "title": "Asselineau 2027 — portrait en parallaxe",
-  "description": "Animation de l'affiche en parallaxe 2,5D avec textes fixes. Le fond et les parties des vêtements cachées par les textes sont reconstitués ; il ne s'agit pas d'une prise de vue vidéo authentique.",
+  "title": "Asselineau 2027 — affiche animée",
+  "description": "Affiche animée au format WebP, en boucle de 10 secondes, présentant François Asselineau sur fond turquoise avec les inscriptions « Asselineau 2027 », « La libération nationale ! » et « Ni gauche ni droite, unis pour la France ». Il s'agit d'une animation de l'affiche, et non d'une prise de vue vidéo authentique.",
   "date": "2026-10-03",
-  "type": "gif",
+  "type": "image",
   "category": "independance",
   "tags": ["Asselineau", "affiche", "animation"],
-  "file": "asselineau-parallaxe.gif",
-  "thumbnail": "asselineau-affiche.jpg",
-  "width": 720,
-  "height": 1026,
-  "alt": "Portrait animé de François Asselineau devant un fond turquoise, avec les textes de l'affiche immobiles",
+  "file": "affiche-2027-asselineau.webp",
+  "thumbnail": "affiche-2027-asselineau.webp",
+  "width": 602,
+  "height": 858,
+  "alt": "Affiche animée de François Asselineau sur fond turquoise : Asselineau 2027, La libération nationale ! Ni gauche ni droite, unis pour la France",
   "order": 70,
-  "variants": [
-    {
-      "label": "Affiche originale",
-      "file": "asselineau-affiche.jpg",
-      "type": "image",
-      "width": 1890,
-      "height": 2693
-    }
-  ]
+  "variants": []
 }
