@@ -1,4 +1,4 @@
-# Affiche animée — parallaxe 2,5D
+# Affiche animée - parallaxe 2,5D
 
 Source originale : `public/media/asselineau-2027/asselineau-affiche.jpg` (inchangée).
 Livrable : `public/media/asselineau-2027/asselineau-parallaxe.gif`.

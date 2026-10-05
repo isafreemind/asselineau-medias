@@ -1,0 +1,9 @@
+{
+  "width": 720,
+  "height": 900,
+  "fps": 10,
+  "frames": 60,
+  "duration": 6,
+  "maxProtectedDifference": 0,
+  "note": "Comparison before lossy video/GIF encoding. Camera travels left to right, reset at loop boundary."
+}

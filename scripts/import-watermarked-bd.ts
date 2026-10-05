@@ -61,7 +61,7 @@ for (const [index, plan] of prepared.entries()) {
     const thumbnail = `${path.parse(file).name}-apercu.webp`;
     await sharp(target).resize({ width: 480, withoutEnlargement: true }).webp({ quality: 85 }).toFile(path.join(plan.destination, thumbnail));
     parts.push({ title: page.title, type: 'image' as const, file, thumbnail, width: page.width, height: page.height,
-      alt: `${plan.publication.title} — page ${pageIndex + 1}/${plan.pages.length} : ${page.title}. Watermark @Be_Free_Mind.` });
+      alt: `${plan.publication.title} - page ${pageIndex + 1}/${plan.pages.length} : ${page.title}. Watermark @Be_Free_Mind.` });
     const data = readFileSync(target);
     bytes += data.length; count++;
     records.push({ id: plan.publication.id, original: page.original, source: page.source, destination: target,

@@ -130,7 +130,7 @@ function Detail({media, onShare}: {media: Media; onShare: (media: Media) => void
   const [failed, setFailed] = useState(false);
   const items = [media, ...media.parts];
   const current = items[selected];
-  useEffect(() => {document.title = `${media.title} — ${site.name}`;}, [media]);
+  useEffect(() => {document.title = `${media.title} - ${site.name}`;}, [media]);
   return <main className="detail"><a className="back-link" href={base}><Icon name="back"/>{l.back}</a><div className="detail-layout"><div className="detail-player">
     {current.type === 'video' ? <video key={current.file} controls playsInline preload="metadata" poster={asset(current.thumbnail)} width={current.width} height={current.height} src={asset(current.file)} onError={() => setFailed(true)}>{l.unsupported}</video> : current.type === 'audio' ? <div className="audio-player"><img src={asset(current.thumbnail)} alt={current.alt}/><audio key={current.file} controls preload="metadata" src={asset(current.file)} onError={() => setFailed(true)}>{l.unsupported}</audio></div> : <img src={asset(current.file)} alt={current.alt} width={current.width} height={current.height} onError={() => setFailed(true)}/>}
   </div><article className="detail-info"><span className="eyebrow">{content.categories.find(item => item.id === media.category)?.label}</span><h1>{media.title}</h1><div className="detail-badges"><span className="chip">{l[current.type]}</span><span className="chip">{ratio(current)}</span><span className="chip">{current.width} × {current.height}</span>{media.demo && <span className="demo-badge">{l.example}</span>}</div><time dateTime={media.date}>{date(media.date)}</time><p>{media.description}</p>

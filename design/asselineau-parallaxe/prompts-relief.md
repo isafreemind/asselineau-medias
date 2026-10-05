@@ -1,4 +1,4 @@
-# Prompts définitifs — mode intégré imagegen
+# Prompts définitifs - mode intégré imagegen
 
 ## Carte de profondeur complète
 

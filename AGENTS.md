@@ -1,4 +1,4 @@
-# AGENTS.md — Médiathèque Asselineau
+# AGENTS.md - Médiathèque Asselineau
 
 ## Objet du projet
 

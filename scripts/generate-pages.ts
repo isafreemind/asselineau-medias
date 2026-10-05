@@ -27,7 +27,7 @@ for (const media of content.media) {
   const visual = media.type === 'video' ? `<video controls poster="${e(`${base}${media.thumbnail}`)}" src="${e(source)}"></video>` : media.type === 'audio' ? `<audio controls src="${e(source)}"></audio>` : `<img src="${e(source)}" alt="${e(media.alt)}" style="max-width:100%;max-height:80vh;object-fit:contain"/>`;
   const partsFallback = media.parts.map(part => `<p>${e(part.title)} : <a href="${e(`${base}${part.file}`)}" download>${e(content.labels.download)}</a></p>`).join('');
   const archiveLink = media.parts.length ? `<a href="${e(`${base}downloads/${media.id}.zip`)}" download>${e(content.labels.downloadGroup)}</a>` : '';
-  writeFileSync(path.join(dir, 'index.html'), page(head(`${media.title} — ${content.site.name}`, media.description, url, image, media.alt), `<main><h1>${e(media.title)}</h1><p>${e(media.description)}</p>${visual}${partsFallback}${archiveLink}<p><a href="${e(source)}" download>${e(content.labels.download)}</a> · <a href="${e(base)}">${e(content.labels.back)}</a></p></main>`));
+  writeFileSync(path.join(dir, 'index.html'), page(head(`${media.title} - ${content.site.name}`, media.description, url, image, media.alt), `<main><h1>${e(media.title)}</h1><p>${e(media.description)}</p>${visual}${partsFallback}${archiveLink}<p><a href="${e(source)}" download>${e(content.labels.download)}</a> · <a href="${e(base)}">${e(content.labels.back)}</a></p></main>`));
   urls.push(url);
 }
 const authorMessage = content.site.authorMessage;

@@ -1,4 +1,4 @@
-# La France indépendante — Médiathèque
+# La France indépendante - Médiathèque
 
 Application React et TypeScript pour consulter, télécharger et partager des vidéos, images, GIF et publications composées de plusieurs fichiers. L'interface reprend la maquette multiformat : papier ivoire, bleu profond, touches tricolores et décor gravé discret.
 
