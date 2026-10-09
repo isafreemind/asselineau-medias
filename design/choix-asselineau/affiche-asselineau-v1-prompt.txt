@@ -1,0 +1,29 @@
+Use case: ads-marketing.
+Create a polished French political advocacy poster, portrait orientation, high resolution, with exceptionally legible accurate French typography. This is an independent supporter artwork signed @Be_Free_Mind, not an official campaign document. Elegant editorial illustration and graphic design, NOT a comic strip. Cream paper, deep navy blue, restrained republican red, white and gold accents. Strong visual hierarchy, generous margins, professional French affiche design.
+
+Top 20%: exact headline in large uppercase navy:
+"DE DROITE OU DE GAUCHE,"
+"D’ABORD CITOYENS FRANÇAIS."
+Subheading in red:
+"POUR UNE FRANCE INDÉPENDANTE."
+
+Middle 45%: several generic election programme sheets in muted diverse colors on left converge toward a large locked book titled "TRAITÉS EUROPÉENS". No named opponents, no invented quotes or treaty references. A single elegant gold key opening the padlock toward the right, with an open horizon and flowing French tricolor symbolizing regained national decision-making. Near the book, very readable exact text:
+"PROMETTRE NE SUFFIT PAS."
+"IL FAUT POUVOIR APPLIQUER."
+Small explanatory line:
+"Une promesse contraire aux traités exige de changer le cadre juridique."
+
+Below this visual, large central question:
+"LE PREMIER CHOIX :"
+"RESTER DANS L’UE OU EN SORTIR ?"
+
+Bottom 35%: dignified recognizable editorial illustrated portrait of François Asselineau, French politician, older adult man with broad face, receding short gray hair, clean-shaven, dark navy suit, white shirt, sober blue tie, confident calm expression. Portrait on lower left, not gigantic. Adjacent exact text:
+"FRANÇOIS ASSELINEAU"
+"DEPUIS 2007, UNE LIGNE CONSTANTE :"
+"SORTIR DE L’UE."
+"REDONNER À LA FRANCE LE POUVOIR DE DÉCIDER."
+A minimalist timeline starting at "2007" subtly supports the continuity argument, no other date.
+Footer signature exact, clearly visible, fully inside image with safe margin:
+"@Be_Free_Mind"
+
+Constraints: Every line spelled accurately with accents. No extra text. No fake QR code, no fake official UPR logo, no fascist or extremist imagery, no caricatures of opponents, no portrait of another politician. Contemporary sophisticated supporter poster rather than information-dense infographic. Preserve causal message: programmes need legal capacity; EU membership is presented as a prior political choice; Asselineau represents the exit proposal and continuity. Do not claim all other policy proposals are illegal or all candidates lie. Artwork should be visually compelling and readable at a glance.

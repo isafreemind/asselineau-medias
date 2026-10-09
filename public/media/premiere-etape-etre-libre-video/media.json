@@ -1,0 +1,27 @@
+{
+  "id": "premiere-etape-etre-libre-video",
+  "title": "Premi?re ?tape : ?tre libres de d?cider ? vid?o",
+  "type": "video",
+  "file": "premiere-etape-etre-libre.mp4",
+  "width": 768,
+  "height": 1152,
+  "order": 72,
+  "description": "Animation d?une affiche de soutien ? Fran?ois Asselineau, cr??e par IA et sign?e @Be_Free_Mind. Un mouvement discret du drapeau et une variation de lumi?re pr?s de la cl? accompagnent les messages de rassemblement civique, d?ind?pendance et de capacit? ? appliquer les choix politiques. Vid?o verticale d?environ 5,89 secondes : il s?agit d?une animation fictive d?affiche, sans prise de vue authentique ni discours de Fran?ois Asselineau.",
+  "date": "2026-10-09",
+  "category": "independance",
+  "tags": [
+    "Asselineau",
+    "France",
+    "ind?pendance",
+    "Frexit",
+    "affiche",
+    "Be_Free_Mind",
+    "animation"
+  ],
+  "thumbnail": "apercu.jpg",
+  "alt": "Affiche de soutien : programmes reli?s ? un livre des trait?s europ?ens ferm? par une serrure, cl? dor?e, drapeau fran?ais et portrait illustr? de Fran?ois Asselineau. Signature @Be_Free_Mind.",
+  "featured": false,
+  "demo": false,
+  "parts": [],
+  "variants": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "une-france-libre-de-decider",
+  "title": "Une France libre de d?cider ? affiche",
+  "type": "image",
+  "file": "affiche-asselineau-v1.png",
+  "width": 1024,
+  "height": 1536,
+  "order": 71,
+  "description": "Affiche de soutien ind?pendante cr??e par IA et sign?e @Be_Free_Mind. ? De droite ou de gauche, d?abord citoyens fran?ais ? rassemble autour d?une France ind?pendante. Les programmes reli?s au livre des trait?s europ?ens, la serrure et la cl? illustrent le message ? Promettre ne suffit pas. Il faut pouvoir appliquer ?. Le portrait illustr? de Fran?ois Asselineau accompagne le choix ? Rester dans l?UE ou en sortir ? ?. Ce visuel d?fend la sortie de l?UE comme pr?alable pour redonner ? la France le pouvoir de d?cider ; ce n?est pas un document officiel de campagne.",
+  "date": "2026-10-09",
+  "category": "independance",
+  "tags": [
+    "Asselineau",
+    "France",
+    "ind?pendance",
+    "Frexit",
+    "affiche",
+    "Be_Free_Mind"
+  ],
+  "thumbnail": "apercu.jpg",
+  "alt": "Affiche de soutien : programmes reli?s ? un livre des trait?s europ?ens ferm? par une serrure, cl? dor?e, drapeau fran?ais et portrait illustr? de Fran?ois Asselineau. Signature @Be_Free_Mind.",
+  "featured": false,
+  "demo": false,
+  "parts": [],
+  "variants": []
+}
