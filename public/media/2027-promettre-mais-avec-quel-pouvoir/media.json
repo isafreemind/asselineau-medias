@@ -1,0 +1,47 @@
+{
+  "id": "2027-promettre-mais-avec-quel-pouvoir",
+  "title": "2027 : promettre, mais avec quel pouvoir ?",
+  "description": "Énergie, immigration, agriculture : avant les promesses, vérifions les moyens de les appliquer. Cette BD met en scène Marine Le Pen, Édouard Philippe, Jean-Luc Mélenchon et Gabriel Attal dans un débat fictif avec François Asselineau, introduit et conclu par le souverainiste en chemise bordeaux. Elle distingue les décisions nationales, les règles européennes et les changements qui nécessitent de modifier le cadre. Sa conclusion défend la sortie de l’UE comme moyen de retrouver nos compétences, puis de choisir démocratiquement les politiques à mener. De droite ou de gauche, les citoyens peuvent se rassembler pour une France indépendante : retrouver le pouvoir de décider ouvre la capacité d’agir ; les politiques restent ensuite à choisir et à réaliser. BD créée par IA, dialogues fictifs, signée @Be_Free_Mind.",
+  "date": "2026-10-09",
+  "order": 70,
+  "type": "image",
+  "category": "independance",
+  "tags": ["BD", "2027", "Asselineau", "Marine Le Pen", "Édouard Philippe", "Jean-Luc Mélenchon", "Gabriel Attal", "souveraineté", "Frexit", "Be_Free_Mind"],
+  "file": "planche-01.png",
+  "thumbnail": "planche-01-apercu.jpg",
+  "width": 1122,
+  "height": 1402,
+  "alt": "Planche 1/4 : portraits nommés de Marine Le Pen, Édouard Philippe, Jean-Luc Mélenchon et Gabriel Attal ; le souverainiste en chemise bordeaux invite à vérifier les moyens juridiques des promesses. Débat fictif, @Be_Free_Mind.",
+  "featured": false,
+  "demo": false,
+  "variants": [],
+  "parts": [
+    {
+      "title": "Promesses et cadre européen",
+      "type": "image",
+      "file": "planche-02.png",
+      "thumbnail": "planche-02-apercu.jpg",
+      "width": 1122,
+      "height": 1402,
+      "alt": "Planche 2/4 : François Asselineau répond à Marine Le Pen et Édouard Philippe sur la TVA, les frontières et les marges nationales dans le cadre européen. Débat fictif, @Be_Free_Mind."
+    },
+    {
+      "title": "Changer les règles ou les subir ?",
+      "type": "image",
+      "file": "planche-03.png",
+      "thumbnail": "planche-03-apercu.jpg",
+      "width": 1122,
+      "height": 1402,
+      "alt": "Planche 3/4 : François Asselineau débat avec Jean-Luc Mélenchon et Gabriel Attal des prix, des obligations européennes et des moyens juridiques d’agir. Débat fictif, @Be_Free_Mind."
+    },
+    {
+      "title": "D’abord, le pouvoir de décider",
+      "type": "image",
+      "file": "planche-04.png",
+      "thumbnail": "planche-04-apercu.jpg",
+      "width": 1122,
+      "height": 1402,
+      "alt": "Planche 4/4 : le souverainiste et François Asselineau défendent le pouvoir de décider et le rassemblement pour une France indépendante. Conclusion : Promettre. Pouvoir. Agir. Débat fictif, @Be_Free_Mind."
+    }
+  ]
+}
