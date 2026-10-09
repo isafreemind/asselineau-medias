@@ -1,0 +1,27 @@
+Create one finished French satirical political poster, vertical portrait 2:3 aspect ratio, high-resolution raster image. Use case: illustration-story / editorial poster. Strong classic newspaper caricature, dark ink drawing, screenprint feel, cream paper, deep EU blue, gold and touches of red. No identifiable real politicians, no existing comic characters. Seven fictional anonymous politicians in varied suits, complacent expressions, seated in the European parliamentary semicircle, with briefcases and piles of documents, enjoying very comfortable office chairs. A discreet closed exit door marked "FREXIT" in the background provides the satirical metaphor. No invented quotations or speech balloons. No literal illicit payments or crime scene. Keep the composition attractive and uncluttered, prioritise exceptional French typography and legibility. Integrate the illustration in the middle and use seven large neat horizontal information strips below it. Each strip has a party name left and amount right; party names are typographic labels, not fabricated logos. Give all parties equal treatment, same size and style, sorted exactly as below. Headline and punchline must dominate. Keep all text inside a safe margin.
+
+EXACT FRENCH TEXT:
+Small upper kicker: "SATIRE • PARLEMENT EUROPÉEN"
+Huge headline at top, split naturally into 4-5 lines:
+"Vous vous demandez toujours pourquoi certains partis dits « d’opposition » ne parlent plus de Frexit ?"
+Bold punchline:
+"Il va être temps de grandir et de comprendre."
+
+Section caption above the seven information strips:
+"MOYENS ANNUALISÉS DES EURODÉPUTÉS FRANÇAIS"
+Seven strips, exactly these names and numbers:
+"Rassemblement national" — "16,80 M€"
+"Parti socialiste" — "5,79 M€"
+"La France insoumise" — "5,21 M€"
+"Renaissance" — "3,48 M€"
+"Les Écologistes" — "2,90 M€"
+"Les Républicains" — "2,90 M€"
+"Identité Libertés" — "2,32 M€"
+
+Footer, small but genuinely readable, arranged over several lines:
+"Projection annuelle : rémunérations brutes + assistants au plafond + frais généraux."
+"Budget de l’UE. Ces sommes ne sont pas des aides versées aux partis."
+"Satire : ces montants ne prouvent pas les motivations des partis."
+"Sources : europarl.europa.eu • Affiliations au 09/10/2026"
+
+Accuracy requirements: There are exactly seven labelled rows and exactly the listed amounts. The amounts are estimates of annualised resources connected to MEPs affiliated with these parties, not amounts paid directly to parties. Do not add another total, fabricated claims, fake quotations, extra slogans, logos, signatures or watermarks. Preserve the headline and punchline verbatim with correct spelling and accents. The satirical allegation remains visually clearly an editorial provocation, and the evidentiary note is included in the finished image.

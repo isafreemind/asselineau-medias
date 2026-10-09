@@ -1,0 +1,284 @@
+{
+  "checkedOn": "2026-10-09",
+  "sourceDirectory": "C:/Users/laslite/Documents/Git/surLaBete",
+  "files": [
+    {
+      "file": "affiche-frexit-sept-partis.png",
+      "bytes": 2570279,
+      "sha256": "1a1c503690832a521a8f8c96a43cc423e4958602d737950b3d04b487acbc0cd8",
+      "sourcePreserved": true,
+      "publicationId": "affiche-frexit-sept-partis"
+    },
+    {
+      "file": "grandissez.mp4",
+      "bytes": 10985748,
+      "sha256": "f40bf51640113c5524a5f7b1f321810d8d94e4cf7ca92bada576b434188ca18e",
+      "sourcePreserved": true,
+      "publicationId": "grandissez-frexit-sept-partis"
+    },
+    {
+      "file": "grandissez.gif",
+      "bytes": 4794839,
+      "sha256": "b122c84b2f86ae5ded941a33f4e2d0745ef7a0de579bc3fa13f8eb56b3e37520",
+      "sourcePreserved": true,
+      "publicationId": "grandissez-frexit-sept-partis-gif"
+    }
+  ],
+  "documents": [
+    {
+      "file": "affiche-frexit-prompt.txt",
+      "sha256": "79856c45b22c4382c251104f6ac2527f24da95137a0bb96c5892554cd553a1e4",
+      "sourcePreserved": true
+    },
+    {
+      "file": "cout-eurodeputes-francais-par-parti.md",
+      "sha256": "6f92e255b3d5d839fd8f9e59fac8a92aafe6c717c7a89222f6430d2811f94178",
+      "sourcePreserved": true
+    }
+  ],
+  "video": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "Constrained Baseline",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 768,
+        "height": 1152,
+        "coded_width": 768,
+        "coded_height": 1152,
+        "has_b_frames": 0,
+        "pix_fmt": "yuv420p",
+        "level": 41,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/24000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 124000,
+        "duration": "5.166667",
+        "bit_rate": "16798200",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "124",
+        "extradata_size": 38,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "32000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/32000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 165888,
+        "duration": "5.184000",
+        "bit_rate": "183804",
+        "nb_frames": "163",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "public/media/grandissez-frexit-sept-partis/grandissez.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "5.184000",
+      "size": "10985748",
+      "bit_rate": "16953314",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf58.76.100"
+      }
+    }
+  },
+  "gif": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "gif",
+        "codec_long_name": "CompuServe GIF (Graphics Interchange Format)",
+        "codec_type": "video",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "width": 768,
+        "height": 1152,
+        "coded_width": 768,
+        "coded_height": 1152,
+        "has_b_frames": 0,
+        "pix_fmt": "bgra",
+        "level": -99,
+        "refs": 1,
+        "r_frame_rate": "10/1",
+        "avg_frame_rate": "10/1",
+        "time_base": "1/100",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 180,
+        "duration": "1.800000",
+        "nb_frames": "18",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      }
+    ],
+    "format": {
+      "filename": "public/media/grandissez-frexit-sept-partis-gif/grandissez.gif",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "gif",
+      "format_long_name": "CompuServe Graphics Interchange Format (GIF)",
+      "start_time": "0.000000",
+      "duration": "1.800000",
+      "size": "4794839",
+      "bit_rate": "21310395",
+      "probe_score": 100,
+      "tags": {
+        "comment": "GIF edited with https://ezgif.com/target-size-compressor"
+      }
+    }
+  },
+  "fastStart": true,
+  "fastStartEvidence": "moov offset 13385 precedes mdat offset 17797",
+  "validation": {
+    "errors": [],
+    "previousWarningCount": 45,
+    "currentWarningCount": 45,
+    "introducedWarnings": []
+  },
+  "checks": {
+    "build": "passed",
+    "checkBuild": "passed",
+    "gitDiffCheck": "passed",
+    "deployedSizeMb": 289.83,
+    "mediaPageCount": 19
+  },
+  "xRequirements": {
+    "attemptedOn": "2026-10-09",
+    "status": "HTTP 403 on official video help page; not independently reverified",
+    "rulesCheckedOn": "2026-10-03",
+    "sources": [
+      "https://help.x.com/en/using-x/x-videos",
+      "https://help.x.com/en/using-x/posting-gifs-and-pictures"
+    ]
+  },
+  "publications": [
+    {
+      "id": "affiche-frexit-sept-partis",
+      "type": "image",
+      "folder": "public/media/affiche-frexit-sept-partis",
+      "file": "affiche-frexit-sept-partis.png"
+    },
+    {
+      "id": "grandissez-frexit-sept-partis",
+      "type": "video",
+      "folder": "public/media/grandissez-frexit-sept-partis",
+      "file": "grandissez.mp4"
+    },
+    {
+      "id": "grandissez-frexit-sept-partis-gif",
+      "type": "gif",
+      "folder": "public/media/grandissez-frexit-sept-partis-gif",
+      "file": "grandissez.gif"
+    }
+  ],
+  "previousImportArchive": "design/sur-la-bete/avant-mise-a-jour",
+  "reimportedOn": "2026-10-09"
+}

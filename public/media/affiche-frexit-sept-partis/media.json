@@ -1,0 +1,30 @@
+{
+  "id": "affiche-frexit-sept-partis",
+  "title": "Grandissez et comprenez - Frexit et moyens des eurodéputés - affiche",
+  "description": "Pourquoi certains partis dits « d’opposition » ne parlent-ils plus de Frexit ? Cette satire met en scène sept élus fictifs confortablement installés au Parlement européen, devant une porte « FREXIT » qui reste fermée. Elle confronte cette question aux moyens annualisés associés aux eurodéputés français de sept partis et lance un appel : « Il va être temps de grandir et de comprendre. » Le tableau additionne rémunérations brutes, assistance parlementaire au plafond et frais généraux : ces sommes ne sont pas des aides versées aux partis et ne prouvent pas leurs motivations. Affiche et animation satiriques créées par IA, signées @Be_Free_Mind.",
+  "date": "2026-10-09",
+  "type": "image",
+  "category": "independance",
+  "tags": [
+    "Frexit",
+    "Parlement européen",
+    "eurodéputés",
+    "partis politiques",
+    "opposition",
+    "moyens parlementaires",
+    "satire",
+    "affiche",
+    "animation",
+    "Be_Free_Mind"
+  ],
+  "file": "affiche-frexit-sept-partis.png",
+  "thumbnail": "apercu.jpg",
+  "width": 1024,
+  "height": 1536,
+  "alt": "Sept élus fictifs se détendent dans l’hémicycle européen, près d’une porte fermée marquée FREXIT. L’affiche demande pourquoi certains partis d’opposition ne parlent plus de Frexit, affiche les moyens annualisés des eurodéputés français de sept partis et conclut : Il va être temps de grandir et de comprendre. Signature @Be_Free_Mind.",
+  "order": 10,
+  "featured": false,
+  "demo": false,
+  "parts": [],
+  "variants": []
+}
