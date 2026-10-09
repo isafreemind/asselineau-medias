@@ -76,8 +76,10 @@ Les chemins sont **relatifs au dossier contenant `media.json`**, sans slash init
 sans `../` et sans référence à une autre publication. Les fichiers manquants et les
 liens sortant du dossier sont refusés. `id` doit rester unique et stable : il détermine
 l'adresse `medias/discours-independance-01/`. `category` correspond à un thème déclaré
-dans `content/site.json`. `order` est un entier facultatif (1000 par défaut) : les plus
-petits nombres apparaissent d'abord, puis les identifiants départagent les égalités.
+dans `content/site.json`. Le catalogue affiche les publications par `date`, de la
+plus récente à la plus ancienne. À date identique, `order`, entier facultatif
+(1000 par défaut), classe les plus petits nombres d'abord ; les identifiants
+départagent ensuite les égalités.
 Renommer un dossier ne change pas le lien de partage si son `id` reste le même.
 
 Pour retirer une publication, supprimer son dossier puis reconstruire le site : sa
@@ -85,6 +87,12 @@ carte, sa page de partage et son ZIP disparaissent sans nettoyer de liste ailleu
 Un dossier présent sans `media.json` déclenche une erreur explicite plutôt qu'une omission.
 
 Types disponibles : `image`, `video`, `gif`, `audio`. Pour l'audio, les dimensions décrivent le visuel de couverture. Les dimensions des images et vidéos doivent correspondre aux fichiers réels. L'orientation et le ratio sont calculés automatiquement. `featured` affiche un badge sans modifier l'ordre choisi dans le JSON. `source`, facultatif, fournit un lien vers la source du contenu.
+
+La `description` présente l'idée portée par le média : son message, sa progression
+et sa conclusion, à partir de la description éditoriale du projet source lorsqu'elle
+existe. Les dimensions, durées, codecs, poids et avertissements restent dans les
+métadonnées et les rapports de validation. Pour une création fictive ou par IA,
+conserver une courte mention de ce statut et la signature de l'auteur.
 
 Le classement suit la publication, pas l'extension : une affiche et son GIF restent
 ensemble dans `media/asselineau-2027/`. Pour une BD, conserver toutes les planches

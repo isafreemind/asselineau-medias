@@ -33,8 +33,10 @@ Le chemin retenu par défaut est `content/site.json`. Ce fichier constitue la so
 Chaque `media.json` définit le titre, la description, la date, le type, la catégorie,
 les mots-clés, le texte alternatif, les dimensions, la mise en avant, les parties et
 les variantes de sa publication. Les chemins sont relatifs à son propre dossier :
-aucune publication ne doit dépendre des fichiers d'une autre. `order` détermine
-l'ordre du catalogue (entier croissant, défaut 1000, puis identifiant).
+aucune publication ne doit dépendre des fichiers d'une autre. Le catalogue est
+classé par date de publication décroissante, du plus récent au plus ancien.
+À date identique, `order` départage les publications (entier croissant, défaut
+1000), puis l'identifiant garantit un ordre stable.
 
 Découvrir les définitions automatiquement au build et en développement, sans liste
 centrale maintenue à la main. Générer le catalogue client et les pages statiques à
@@ -80,7 +82,26 @@ L'objectif est de présenter les contenus et les prises de parole de François A
 
 Le ton éditorial doit être affirmatif, précis et pédagogique. Ne pas affaiblir artificiellement les conclusions par des précautions oratoires inutiles. Distinguer néanmoins clairement les faits établis, les raisonnements, les hypothèses et les interprétations.
 
+Dans les textes publics, utiliser le tiret simple `-` plutôt que le tiret cadratin.
+Enregistrer les textes en UTF-8 en préservant les accents et vérifier leur présence
+dans les pages générées ; éviter les écritures par pipeline PowerShell qui peuvent
+remplacer les caractères français par des points d'interrogation.
+
+Le message de l'auteur, dans `content/site.json` → `site.authorMessage`, conserve
+le texte explicitement validé par l'utilisateur. Il explique la mise à disposition
+publique des médias pour leur téléchargement et leur diffusion sur tous les
+supports, l'absence de lien politique de l'auteur avec François Asselineau et
+l'appel à agir soi-même pour le faire connaître. Préserver sa voix ferme et son
+appel à l'action ; ne pas le remplacer par une description technique des fichiers.
+
 Pour les satires et les scènes générées par IA, préciser leur statut fictif dans la description de la publication. Le prompt fourni explique l'intention de création ; il ne prouve pas que le fichier final respecte chaque action, inscription ou durée annoncée. Décrire le contenu effectivement observé et signaler les écarts utiles.
+
+La description publique doit porter sur l'idée du média, en suivant la description
+éditoriale du projet source lorsqu'elle existe : message central, progression et
+conclusion. Ne pas y insérer les paramètres techniques, durées, poids, codecs ou
+avertissements de validation ; les conserver dans les métadonnées et les rapports.
+La mention du statut fictif ou de la création par IA reste courte, avec la signature
+de l'auteur lorsqu'elle est fournie.
 
 ## Identité visuelle
 

@@ -33,10 +33,14 @@ try {
   publication(folderB, { ...definition, id: 'publication-b', order: 10 });
   assert.deepEqual(readCatalog(fixture).media.map(item => item.id), ['publication-b', 'publication-a']);
   assert.equal(readCatalog(fixture).media[0].file, 'media/publication-b/image.png');
+  publication(folderA, { ...definition, date: '2026-10-09', order: 1000 });
+  assert.deepEqual(readCatalog(fixture).media.map(item => item.id), ['publication-a', 'publication-b'], 'La date la plus récente prime sur order');
+  publication(folderA, { ...definition, date: '2026-10-01', order: 0 });
+  assert.deepEqual(readCatalog(fixture).media.map(item => item.id), ['publication-b', 'publication-a'], 'Une publication ancienne reste après une plus récente');
   remove(folderA);
   assert.deepEqual(readCatalog(fixture).media.map(item => item.id), ['publication-b'], 'Suppression sans index à nettoyer');
   publication(folderA, { ...definition, order: 10 });
-  assert.deepEqual(readCatalog(fixture).media.map(item => item.id), ['publication-a', 'publication-b'], 'Ordre secondaire stable');
+  assert.deepEqual(readCatalog(fixture).media.map(item => item.id), ['publication-a', 'publication-b'], 'Identifiant stable à date et order identiques');
   publication(folderA, { ...definition, file: '../publication-b/image.png' });
   assert.throws(() => readCatalog(fixture), /media.json.*file/);
   publication(folderA, { ...definition, file: 'absent.png' });

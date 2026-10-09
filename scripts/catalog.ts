@@ -48,6 +48,7 @@ export function readCatalog(projectRoot = process.cwd()): SiteContent {
         variants: media.variants.map((variant, index) => ({ ...variant, file: resolveFile(variant.file, `variants.${index}.file`) })),
       };
     });
-  definitions.sort((a, b) => a.order - b.order || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+  definitions.sort((a, b) => (a.date > b.date ? -1 : a.date < b.date ? 1 : 0)
+    || a.order - b.order || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
   return siteSchema.parse({ ...settings, media: definitions });
 }
